@@ -8,6 +8,7 @@ const Shop = () => {
 };
 
 const App = () => {
+  console.log("rendered");
   return (
     <Routes>
       <Route path="/" element={<Navigation />}>
