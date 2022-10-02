@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { BaseButton } from "../button/button.styles";
 export const ProductCartContainer = styled.div`
   width: 100%;
   display: flex;
@@ -15,7 +15,7 @@ export const ProductCartContainer = styled.div`
     margin-bottom: 5px;
   }
 
-  button {
+  ${BaseButton} {
     width: 80%;
     opacity: 0.7;
     position: absolute;
@@ -28,9 +28,27 @@ export const ProductCartContainer = styled.div`
       opacity: 0.8;
     }
 
-    button {
+    ${BaseButton} {
       opacity: 0.85;
       display: flex;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+    ${BaseButton} {
+      display: block;
+      opacity: 0.9;
+      min-width: unset;
+      padding: 0 10px;
+    }
+    &:hover {
+      img {
+        opacity: unset;
+      }
+
+      button {
+        opacity: unset;
+      }
     }
   }
 `;
