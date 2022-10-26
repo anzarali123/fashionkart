@@ -236,4 +236,28 @@ const SHOP_DATA = [
   },
 ];
 
+export const sliderItems = [
+  {
+    id: 1,
+    img: "https://images.pexels.com/photos/8346923/pexels-photo-8346923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "SUMMER SALE",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "f5fafd",
+  },
+  {
+    id: 2,
+    img: "https://images.pexels.com/photos/7945546/pexels-photo-7945546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "AUTUMN COLLECTION",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "fcf1ed",
+  },
+  {
+    id: 3,
+    img: "https://images.pexels.com/photos/4672497/pexels-photo-4672497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    title: "LOUNGEWEAR LOVE",
+    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    bg: "fbf0f4",
+  },
+];
+
 export default SHOP_DATA;

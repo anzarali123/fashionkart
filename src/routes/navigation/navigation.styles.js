@@ -8,7 +8,7 @@ export const NavigationContainer = styled.div`
   justify-content: space-between;
   margin-bottom: 25px;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1080px) {
     height: 60px;
     padding: 10px;
     margin-bottom: 20px;
@@ -16,9 +16,10 @@ export const NavigationContainer = styled.div`
 `;
 
 export const LogoContainer = styled(Link)`
-  height: 100%;
   width: 70px;
-  padding: 25px;
+  display: flex;
+  align-items: center;
+
 
   @media screen and (max-width: 800px) {
     width: 50px;

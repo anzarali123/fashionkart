@@ -33,7 +33,7 @@ export const ProductCartContainer = styled.div`
       display: flex;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1083px) {
     width: 40vw;
     ${BaseButton} {
       display: block;

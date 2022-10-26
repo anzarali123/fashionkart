@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const AuthenticationContainer = styled.div`
   display: flex;
-  width: 900px;
+  max-width: 800px;
+  flex-wrap: wrap;
+  align-content: center;
   justify-content: space-between;
   margin: 30px auto;
 `;

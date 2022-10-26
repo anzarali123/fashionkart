@@ -11,7 +11,7 @@ export const BackgroundImage = styled.div`
 
 export const Body = styled.div`
   height: 120px;
-  width: 15%;
+  width: 25%;
   padding: 0 25px;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,9 @@ export const Body = styled.div`
   p {
     font-weight: lighter;
     font-size: 16px;
+  }
+  @media screen and (max-width: 420px) {
+    width: 30%;
   }
 `;
 
